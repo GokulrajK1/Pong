@@ -16,7 +16,7 @@ Created using the pyGame library, this is a simple but fun version of the popula
 
 ## Setup 
 
-In order to play this game, you will need to install both Python and pyGame. To download python go to [python.org](https://www.python.org/)
+In order to play this game, you will need to install both Python and pyGame. To download python go to [python.org](https://www.python.org/).
 
 After downloading the lastest version of python, you will need to download pyGame.
 In the Windows command line or the Mac terminal type in. 
