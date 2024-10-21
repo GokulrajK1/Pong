@@ -40,9 +40,9 @@ class Paddle:
     def movePaddle(self, singlePlayerMode=True, paddleID=1, ball=None):
         keys_pressed = pygame.key.get_pressed()
         if paddleID == 1:
-            if keys_pressed[pygame.K_w] and self.y > 0:
+            if keys_pressed[pygame.K_UP] and self.y > 0:
                 self.y -= self.vel
-            if keys_pressed[pygame.K_s] and self.y + self.height < HEIGHT:
+            if keys_pressed[pygame.K_DOWN] and self.y + self.height < HEIGHT:
                 self.y += self.vel
         elif paddleID == 2 and singlePlayerMode == False:
             if keys_pressed[pygame.K_UP] and self.y > 0:
